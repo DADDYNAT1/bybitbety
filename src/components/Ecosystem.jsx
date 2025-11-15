@@ -11,7 +11,7 @@ const Ecosystem = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gradient">
-            Powered By 🤝
+            Fueled By 🤝
           </h2>
 
           {/* Partner Logos */}
