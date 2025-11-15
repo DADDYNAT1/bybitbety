@@ -32,11 +32,17 @@ const LiveChart = () => {
             Live Token Chart
           </h2>
 
-          <div className="card-gradient rounded-3xl p-8 border border-bety-yellow/20">
+          <div className="card-gradient rounded-3xl p-4 md:p-8 border border-bety-yellow/20">
             {/* DexScreener Embedded Chart */}
             <div
               id="dexscreener-embed"
-              style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}
+              className="w-full"
+              style={{
+                position: 'relative',
+                width: '100%',
+                paddingBottom: '125%',
+                maxHeight: '600px'
+              }}
             >
               <iframe
                 src={`https://dexscreener.com/mantle/${TOKEN_ADDRESS}?embed=1&theme=dark&trades=0&info=0`}
